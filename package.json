@@ -4,7 +4,9 @@
   "description": "A place for developers to shout and troubleshoot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Coming soon\""
+    "test": "echo \"Coming soon\"",
+    "build": "echo \"Coming soon\"",
+    "start": "echo \"Coming soon\""
   },
   "repository": {
     "type": "git",
