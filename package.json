@@ -1,0 +1,42 @@
+{
+  "name": "shout",
+  "version": "1.0.0",
+  "description": "A place for developers to shout and troubleshoot",
+  "main": "src/server/server.js",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "server": "nodemon src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkslash/shout.git"
+  },
+  "keywords": [
+    "developers",
+    "shout",
+    "issues",
+    "fix",
+    "problem",
+    "social"
+  ],
+  "author": "anshulchanchlani@gmail.com, kndarppatel@gmail.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/thinkslash/shout/issues"
+  },
+  "homepage": "https://github.com/thinkslash/shout#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.10",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
