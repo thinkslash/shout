@@ -1,0 +1,19 @@
+{
+  "name": "shout",
+  "version": "1.0.0",
+  "description": "A place for developers to shout and troubleshoot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Coming soon\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkslash/shout.git"
+  },
+  "author": "ThinkSlash",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/thinkslash/shout/issues"
+  },
+  "homepage": "https://github.com/thinkslash/shout#readme"
+}
