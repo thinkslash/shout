@@ -19,12 +19,6 @@
     "problem",
     "social"
   ],
-  "author": "anshulchanchlani@gmail.com, kndarppatel@gmail.com",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/thinkslash/shout/issues"
-  },
-  "homepage": "https://github.com/thinkslash/shout#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
@@ -38,5 +32,11 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
-  }
+  },
+  "author": "ThinkSlash",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/thinkslash/shout/issues"
+  },
+  "homepage": "https://github.com/thinkslash/shout#readme"
 }
