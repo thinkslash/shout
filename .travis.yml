@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- stable
+cache:
+  directories:
+  - node_modules
+script:
+- npm test
+- npm run build
+notifications:
+  slack:
+    secure: l2EkOdFz/POssF/IQzXkKWM1hosqKUIi/QUXsXtvJ7SXrf51L8P/aZIy8hmNtgq5k25einpj5HTseAX15L+ODlmjZXH+DWPuw06WsyOopMqiVeLXVeVPrb2g4g57NXJ0eYMqtDBLkS8ubuJTc0cJRKkI6iHTq6HLO7CTB+ptqsdqGta4VlFPiPL0VZca8czpcQjn44sQEotWU/88BUEpMRra5b4Uyg+bwaO8aGzsANwRAt9uRINpgFSyMRWERA4XL29ODp4z/6sRnN3Bq3eWpe4/MXzeUekFtfn4lNJcAAPoXPTH5f2CN6TPz4fBHKbnixbHrbySSP3LJj7e3pd6L2Rf+C9+klxSSN+NYi2Ox0OIAqJqBpGcFAylv4+Dy/s+EPDhyAOdZ+TlEnoGyIjMpRknZAI3CUI4mEc3I4hHjRK490206ycC0NTm3PhP63n1yZIknnHuDbWM4KoDzvTHXeY51tllZz7nep+Ut08zfupTUSmRR+OujvNbYtcs4RhSoBTggo2GguM314Mel7U5hJSTkzS1sZrH9wvFL2QkbaayHxm4qc0TouzXB0CwA2Q8ANcaZsVcUbZzk+Vw03jHzl8KfOgy36eGbIn3rFOmeK6cCyxDyeWRNnP9/0864dK+Bxe8DacXRl451mkq3Oz4K+UrQs4SQUXZtO+TX8FLb70=
