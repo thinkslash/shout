@@ -5,6 +5,7 @@ const passport = require('passport');
 
 //Require users route.
 const users = require('./routes/api/users');
+const profile = require('./routes/api/profile');
 
 //Get DB key.
 const MONGO_URI = require('./config/keys').MONGO_URI; 
@@ -26,6 +27,7 @@ require('./config/passport')(passport);
 
 //Each backend route will have an '/api' prefix.
 app.use('/api/users',users);
+app.use('/api/profile', profile);
 
 const port = process.env.PORT || 7000;
 
