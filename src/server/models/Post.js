@@ -10,12 +10,13 @@ const PostSchema = new Schema({
         required: true
     },
     postPermaLink: {
-        type: String,
-        required: true
+        type: String
+       
     },
     postTimestamp: {
         type: Date,
-        required: true
+        required: true,
+        default:Date.now
     },
     postAuthor: {
         type: Schema.Types.ObjectId,
@@ -52,7 +53,9 @@ const PostSchema = new Schema({
         refs: 'users'
     },
     timestamp:{
-        type: Date
+        type: Date,
+        required:true,
+        default:Date.now
     },
     content: {
         type: String
